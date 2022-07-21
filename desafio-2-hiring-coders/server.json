@@ -1,0 +1,25 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "photo": "https://images5.kabum.com.br/produtos/fotos/109045/gabinete-gamer-sharkoon-lit100-mid-tower-rgb-com-fan-lateral-em-vidro-lit100_1577990169_gg.jpg",
+            "name": "PC Gamer Cube",
+            "description": "Descrição do produto",
+            "price": 8000
+        },
+        {
+            "id": 2,
+            "photo": "https://images9.kabum.com.br/produtos/fotos/99519/gabinete-gamer-sharkoon-tg4-blue-sem-fonte-mid-tower-usb-3-0-4-fans-preto-com-lateral-em-vidro_1545133891_gg.jpg",
+            "name": "PC Gamer Blue Wind",
+            "description": "Descrição do produto",
+            "price": 3000
+        },
+        {
+            "id": 3,
+            "photo": "https://images5.kabum.com.br/produtos/fotos/132045/gabinete-gamer-cg-02qi-bifrost-cg02qirh0010b0x_1605798721_gg.jpg",
+            "name": "PC Gamer SE Gama",
+            "description": "Descrição do produto",
+            "price": 3000
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+body {
+    background-color: #888;
+}
+
+.img-post {
+    width: 189px;
+    border-width: 10px;
+    border-color: black;
+}

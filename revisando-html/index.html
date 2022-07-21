@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercícios HTML - Gama Academy</title>
+
+        <meta charset="UTF-8" />
+        <meta name="description" content="Texto descritivo da página web" />
+        <meta name="author" content="SamuelHVRodrigues" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="gama-academy.svg" alt="logo-gama-academy" title="Logo da Gama Academy"/>
+        </header>
+
+        <main>
+            <h1>Terra</h1>
+            <h2>América do Sul</h2>
+            <h3>Brasil</h3>
+            <h4>Pernambuco</h4>
+            <p><strong>meu país</strong></p>
+            <h5>Recife</h5>
+            <h6>Candeias</h6>
+            <span>Curso de HTML - Hiring Coders</span>
+
+            <a href="https://www.youtube.com/" title="YouTube" target="blank">Texto ou imagem</a>
+            
+            <p>Queremos 
+                <a href="https://www.youtube.com/" title="aprender mais pesquisando" target="blank">aprender mais!</a>
+            </p>
+
+            <a href="https://www.youtube.com/" title="Gama Academy" target="blank">
+                <img src="gama-academy.svg"/>
+            </a>
+
+            <img src="https://avatars.githubusercontent.com/u/73417269?v=4" alt="eu" title="eu"/>
+
+            <video width="550" height="560" controls>
+                <source src="Self Pitch - Hiring Coderss.mp4" type="video/mp4" />
+            </video>
+
+            <!--Unordened list-->
+            <ul type="circle">
+                <li>header = cabeçalho</li>
+                <li>main = principal</li>
+                <li>article = artigo</li>
+                <li>nav = navegação</li>
+                <li>footer = radapé</li>
+            </ul>
+
+            <!--Ordened list-->
+            <ol start="6" type="A">
+                <li>item 1</li>
+                <li>item 2</li>
+            </ol>
+
+            <!--Dedinition list-->
+            <dl>
+                <dt>Palavra 1</dt>
+                <dd>explicação da palavra 1</dd>
+                <dt>Palavra 2</dt>
+                <dd>explicação da palavra 2</dd>
+            </dl>
+
+            <table>
+                <thead>
+                    <tr>Hiring Coders</tr>
+                    <th>Cronograma</hr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Julho</td>
+                    </tr>
+                    <tr>
+                        <td>Horário</td>
+                        <td>Conteúdo</td>
+                    </tr>
+                    <tr>
+                        <td>10:00</td>
+                        <td rowspan="2">HTML</td>
+                    </tr>
+                    <tr>
+                        <td>11:00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Horas/dia:</td>
+                        <td>6 horas</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <form action="#" method="POST">
+
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+
+                <label for="interesse1">Interesses de Estudo</label>
+                <select name="interesses" id="interesse1">
+                    <option value="1">Vendas</option>
+                    <option value="2">Marketing</option>
+                </select>
+
+                <fieldset>
+                    <legend>Interesse de Estudo 1</legend>
+                    <input type="radio" name="interesse2" value="1" id="interesse2">
+                    <label for="interesse2">Vendas</label>
+                    <input type="radio" name="interesse3" value="2" id="interesse3">
+                    <label for="interesse3">Marketing</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Interesse de Estudo 2</legend>
+                    <input type="checkbox" name="interesse4" value="1" id="interesse4">
+                    <label for="interesse4">Vendas</label>
+                    <input type="checkbox" name="interesse5" value="2" id="interesse5">
+                    <label for="interesse5">Marketing</label>
+                </fieldset>
+
+                
+                <input type="submit" value="Enviar o formulário">
+
+
+
+            </form>
+
+        </main>
+        
+    </body>
+</html>
